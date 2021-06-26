@@ -27,7 +27,7 @@
    <th>{{$count}}</th>
    <th>{{$a->nama}}</th>     
    <th>{{$a->asal}}</th>
-   <th>{{$a->isi}} menit</th>
+   <th>{{$a->isi}}</th>
    <th>
    <a href="{{"hapus/".$a->id}}" class="btn btn-danger btn-sm"><i class="fa fa-trash "></i></a>
    <a href="{{"edit/".$a->id}}"href="#" class="btn btn-primary btn-sm"><i class="fas fa-edit"></i>edit</a>
