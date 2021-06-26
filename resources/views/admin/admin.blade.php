@@ -51,7 +51,7 @@
        </button>
      </div>
      <div class="modal-body">
-         <form method="post" action="{{route('admin.store')}}" enctype="multipart/form-data">
+         <form method="post" action="{{secure_route('admin.store')}}" enctype="multipart/form-data">
           @CSRF
              <div class="form-group">
                  <label>Nama</label>
