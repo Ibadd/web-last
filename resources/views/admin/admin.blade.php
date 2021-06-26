@@ -14,9 +14,8 @@
    <th>Nama</th> 
    <th>Asal</th>
    <th>Isi Testimoni</th>
-   <th>Waktu</th>
    <!-- <th>Terakhir diubah</th>   -->
-   <th>Aksi</th> 
+   <th>Opsi</th> 
  </tr>
 
 
@@ -29,7 +28,6 @@
    <th>{{$a->nama}}</th>     
    <th>{{$a->asal}}</th>
    <th>{{$a->isi}} menit</th>
-   <th>{{$a->timestamps}}</th>
    <th>
    <a href="{{"hapus/".$a->id}}" class="btn btn-danger btn-sm"><i class="fa fa-trash "></i></a>
    <a href="{{"edit/".$a->id}}"href="#" class="btn btn-primary btn-sm"><i class="fas fa-edit"></i>edit</a>
