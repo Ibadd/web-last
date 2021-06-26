@@ -10,7 +10,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/admin">
                 <div class="sidebar-brand-icon">
-                    <i class="fab fa-accessible-icon"></i>
+                    <i class="fab fa-user-secret"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">Admin</div>
             </a>
@@ -21,7 +21,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="/admin">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-database"></i>
                     <span>Dashboard</span></a>
             </li>
 
