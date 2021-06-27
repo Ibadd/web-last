@@ -574,7 +574,7 @@
       </div>
     </section><!-- End Contact Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- ======= Testimoni Section ======= --> 
     <section id="testi" class="testi section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -585,7 +585,10 @@
 
         <ul class="testi-list" data-aos="fade-up" data-aos-delay="100">
 
-        @foreach($testimonis as $b)
+		<div class="info-box  mb-4">
+		
+             @foreach($testimonis as $b)
+			 
           <li>
             <a data-toggle="collapse" class="" >{{$b->nama}}</a>
               <p>
@@ -596,7 +599,11 @@
                 {{$b->isi}}
               </p>
           </li>
+		  
         @endforeach
+		
+        </div>
+        
 
         </ul>
 
