@@ -1325,6 +1325,28 @@ section {
     padding: 20px 0 30px 0;
 }
 
+.testi .testi-list .info-box i {
+    font-size: 32px;
+    color: #cc1616;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #f5a0a0;
+}
+
+.testi .testi-list .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.testi .testi-list .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
 
 
 .testi .testi-list p {
